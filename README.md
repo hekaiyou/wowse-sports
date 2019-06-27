@@ -1,9 +1,9 @@
 # 某机构会员小程序
 
-![屏幕截图1](/image/pmgz1)
-![屏幕截图2](/image/pmgz2)
-![屏幕截图3](/image/pmgz3)
-![屏幕截图4](/image/pmgz4)
+![屏幕截图1](/image/pmgz1.png)
+![屏幕截图2](/image/pmgz2.png)
+![屏幕截图3](/image/pmgz3.png)
+![屏幕截图4](/image/pmgz4.png)
 
 ## 开发技术
 
@@ -13,4 +13,4 @@
 - 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
 - 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
 
-- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+具体可以查看[云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
