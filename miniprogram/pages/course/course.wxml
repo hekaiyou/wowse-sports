@@ -1,0 +1,4 @@
+<!--miniprogram/pages/course/course.wxml-->
+<view class="container">
+  <basketball></basketball>
+</view>

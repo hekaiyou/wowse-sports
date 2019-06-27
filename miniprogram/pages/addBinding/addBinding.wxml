@@ -1,0 +1,25 @@
+<!--miniprogram/pages/binding/binding.wxml-->
+<view class="container">
+  <view class="binding">
+    <image class="binding-image" mode="widthFix" src="{{bindingImage}}"></image>
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class="input-sp-area">
+        <view class="weui-cells ">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+              <view class="weui-label">课程卡号</view>
+            </view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" type="text" name="cardNumber" placeholder="请填写课程卡号" />
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="weui-btn-area">
+        <view class="button-sp-area">
+          <button class="weui-btn" type="primary" plain="true" form-type="submit">绑定</button>
+        </view>
+      </view>
+    </form>
+  </view>
+</view>

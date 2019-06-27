@@ -1,0 +1,33 @@
+/* miniprogram/pages/binding/binding.wxss */
+@import "../../style/guide.wxss";
+
+.binding {
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 9px;
+  margin-top: 40rpx;
+  width: 650rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.binding .binding-image {
+  background: #ebebeb;
+  width: 650rpx;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  vertical-align: bottom;
+}
+
+.input-sp-area {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.button-sp-area {
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  width: 60%;
+}

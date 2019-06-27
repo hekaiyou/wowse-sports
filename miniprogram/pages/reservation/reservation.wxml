@@ -1,0 +1,59 @@
+<!--miniprogram/pages/reservation/reservation.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class="placeholder" style="margin-top: 40rpx;"></view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">宝贝姓名</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" type="text" name="babyName" placeholder="请填写宝贝姓名" />
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">宝贝年龄</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" type="number" name="babyAge" placeholder="请填写宝贝年龄" />
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__hd">
+            <view class="weui-label">联系人</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" type="text" name="contact" placeholder="请填写联系人" />
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_input weui-cell_vcode">
+          <view class="weui-cell__hd">
+            <view class="weui-label">联系电话</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" type="number" name="phone" placeholder="请填写联系电话" />
+          </view>
+          <!-- <view class="weui-cell__ft">
+          <view class="weui-vcode-btn" bindtap="showTopTips">自动获取</view>
+        </view> -->
+        </view>
+        <view class="weui-cell weui-cell_select">
+          <view class="weui-cell__hd weui-cell__hd_in-select-after">
+            <view class="weui-label">场馆区域</view>
+          </view>
+          <view class="weui-cell__bd">
+            <picker name="region" bindchange="bindRegionChange" value="{{regionIndex}}" range="{{region}}">
+              <view class="weui-select weui-select_in-select-after">{{region[regionIndex]}}</view>
+            </picker>
+          </view>
+        </view>
+      </view>
+      <view class="placeholder" style="margin-top: 60rpx;"></view>
+      <view class="weui-btn-area">
+        <button class="weui-btn" type="primary" form-type="submit">免费体验</button>
+      </view>
+    </form>
+  </view>
+</view>

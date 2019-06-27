@@ -1,0 +1,10 @@
+<!--miniprogram/pages/index/index.wxml-->
+<view class="container">
+  <view class="reservation" bindtap="openReservation">
+    <view class="reservation-synopsis">
+      <text class="reservation-title">预约免费体验</text>
+      <text class="reservation-description">沃赛体育———让运动伴随每一个家</text>
+    </view>
+    <image class="reservation-image" mode="widthFix" src="{{reservationImage}}"></image>
+  </view>
+</view>

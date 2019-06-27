@@ -1,0 +1,39 @@
+/* miniprogram/pages/index/index.wxss */
+@import "../../style/guide.wxss";
+
+.reservation {
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 9px;
+  margin-top: 40rpx;
+  width: 650rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation .reservation-image {
+  background: #ebebeb;
+  width: 650rpx;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  vertical-align: bottom;
+}
+
+.reservation .reservation-synopsis {
+  margin: 20rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation .reservation-title {
+  font-size: 16px;
+  color: #111;
+  text-align: left;
+}
+
+.reservation .reservation-description {
+  font-size: 13px;
+  color: #888;
+  text-align: left;
+}

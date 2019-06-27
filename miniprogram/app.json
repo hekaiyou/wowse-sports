@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/reservation/reservation",
+    "pages/chooseLib/chooseLib",
+    "pages/addBinding/addBinding",
+    "pages/course/course"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "HKY测试",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#A9B7B7",
+    "selectedColor": "#11CD6E",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/navigation-home-selected.png",
+        "iconPath": "images/navigation-home.png",
+        "pagePath": "pages/index/index",
+        "text": "动态"
+      },
+      {
+        "selectedIconPath": "images/navigation-course-selected.png",
+        "iconPath": "images/navigation-course.png",
+        "pagePath": "pages/course/course",
+        "text": "课程"
+      }
+    ]
+  }
+}

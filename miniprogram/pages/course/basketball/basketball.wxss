@@ -1,0 +1,15 @@
+/* pages/course/basketball/basketball.wxss */
+
+.basketball {
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 9px;
+  margin-top: 40rpx;
+  width: 650rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 361rpx;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+}

@@ -1,0 +1,4 @@
+<!--pages/course/basketball/basketball.wxml-->
+
+<view class="basketball" style="background-image: url('../../images/course-basketball.jpg')">
+</view>
